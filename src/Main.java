@@ -4,13 +4,6 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner read;
-        read = new Scanner(System.in);
-        String number = "1";
-
-        while (Integer.parseInt(number) != 0){
-            number = read.nextLine();
-        }
-        Menu.reader( Integer.parseInt(number));
+        System.out.println(Menu.reader());
     }
 }
